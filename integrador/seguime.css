@@ -1,0 +1,25 @@
+h1{
+    font-family:'Baloo Tammudu 2', cursive;
+}
+p {
+    font-family:'Baloo Tammudu 2', cursive;
+}
+h3 {
+    text-decoration-line: underline;
+    text-decoration-style: double;
+}
+ul {
+    list-style-image: url("linkedin.png");
+}
+header{
+     height: 15%;
+}
+main{
+     height: 75%;
+}
+footer{
+     height: 10%;
+}
+ul li{
+     height: 40%;
+}
