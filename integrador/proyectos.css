@@ -1,6 +1,63 @@
+header{
+    background: darkslategray;
+    border-bottom: 2px solid black;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+}
+
+ul{
+    list-style: none;
+    padding: 0%;
+}
+
+ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+header li{
+    display: inline-block;
+    padding: 0px 10px;
+}
+
+body{
+    padding-top: 122px;
+}
+  
+section{
+    margin: 2.5%;
+    margin-bottom: 0%;
+}
+
+footer{
+    background-color: darkslategray;
+    border-top: 2px solid black;
+    position: fixed;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+}
+
 h1{
     font-family:'Baloo Tammudu 2', cursive;
+    margin-top: 0%;
+    margin-bottom: 0%;
 }
+
 p {
     font-family:'Baloo Tammudu 2', cursive;
+}
+
+footer p {
+    text-align: center;
+}
+
+footer a {
+    position: absolute;
+    right: 10px;
+    top: 0px;
+    margin: 16px 0;
+    color: black;
 }
