@@ -1,25 +1,73 @@
-h1{
-    font-family:'Baloo Tammudu 2', cursive;
-}
-p {
-    font-family:'Baloo Tammudu 2', cursive;
-}
-h3 {
-    text-decoration-line: underline;
-    text-decoration-style: double;
-}
-ul {
-    list-style-image: url("linkedin.png");
-}
 header{
-     height: 15%;
+     background: darkslategray;
+     border-bottom: 2px solid black;
+     position: fixed;
+     top: 0%;
+     left: 0%;
+     right: 0%;
+ }
+ 
+ ul{
+     list-style: none;
+     padding: 0%;
+ }
+ 
+ ul li a{
+     text-decoration: none;
+     color: black;
+ }
+ header li{
+     display: inline-block;
+     padding: 0px 10px;
+ }
+ 
+ main{
+     padding: 126px 0px;
+ }
+ 
+ main section{
+     height: 1000%;
+     width: 100%;
+ }
+ section{
+     background-image: url('img/drone.jpg');
+     background-repeat: no-repeat;
+     background-position: center;
+ }
+ 
+ footer{
+     background-color: darkslategray;
+     position: fixed;
+     bottom: 0%;
+     left: 0%;
+     right: 0%;
+ }
+ 
+ h1{
+     font-family:'Baloo Tammudu 2', cursive;
+     margin-top: 0%;
+     margin-bottom: 0%;
+     height: 60px;
+ }
+ 
+ p {
+     font-family:'Baloo Tammudu 2', cursive;
+ }
+
+ footer{
+    background-color: darkslategray;
+    border-top: 2px solid black;
+    position: fixed;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
 }
-main{
-     height: 75%;
-}
-footer{
-     height: 10%;
-}
-ul li{
-     height: 40%;
-}
+
+ footer p {
+     text-align: center;
+ }
+ 
+ img {
+     height: 1000%;
+     width: 100%;
+ }
